@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.container{
+    border: 8px solid white;
+    width: 200px;
+    aspect-ratio: 3/4;
+    position: relative;
+    padding: 1rem;
+    top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem ;
+    line-height: 1px;
+    border-radius: 1rem ;
+    box-shadow: 1px 1px 20px #4071F4 ;
+}
+
+img{
+    border: inherit;
+    aspect-ratio: 1/1;
+    width: 100px;
+    position: absolute;
+    left: calc(50px + 1rem);
+    top: -70px;
+    border-radius: 100vw;
+}
+.info{
+    position: absolute;
+    top: 20px;
+}
